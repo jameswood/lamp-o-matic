@@ -1,4 +1,5 @@
 outpin=4;
+gpio.mode(outpin,gpio.OUTPUT)
 gpio.write(outpin,gpio.LOW);
 state="Off";
 debug = false;
